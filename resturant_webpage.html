@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>restaurant_webpage</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url('./resturant_img1.jpg');
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			position: absolute;
+/*			background-attachment: fixed;*/
+/*		        position: fixed;*/
+/*position: absolute;*/
+/*           background-size: cover;*/
+/*background-attachment: fixed;*/
+
+		}
+		.body{
+			background-size: 100% 100vh;
+/*			margin:auto;*/
+		}
+		h1{
+
+           font-size: 85px;
+           margin-left: 550px;
+           margin-top: 140px;
+/*           margin-left: 120px;*/
+         
+        }
+        .text{
+        	font-size: 30px;
+        	color: ghostwhite;
+/*        	
+*/
+/*        	position: absolute;*/
+/*background-attachment: fixed;*/
+position: absolute;
+        	left:400px;
+        	top:250px;
+        }
+        select{
+        	position: absolute;
+        	left:450px;
+        }
+        .gif{
+        	position: absolute;
+        	left:400px;
+/*        	border-right: none;*/
+        }
+        .logo{
+        	position: absolute;
+        	left:650px;
+        }
+        .text_1{
+        	position: absolute;
+        	left:700px;
+        	height: 35px;
+        	width: 300px;
+        }
+        .mydemo{
+        	position: absolute;
+        	top:100px;
+        	left:100px;
+        }
+	</style>
+		
+</head>
+<body class="body">
+<div class="mydemo">
+   <h1 style="color:ghostwhite;"><i>zomato</i></h1>
+   <div class="text">Discover the best food & drinks in your city</div>
+<div >
+	<div class="location">
+   <img src="./location.gif" class="gif" height="35px" width="50px" >
+   
+   	<select style="height: 35px; width: 200px; border-left: none; border-top:none ; border-bottom: none;">
+   		<option value="Rajkot " selected>Rajkot</option>
+   		<option value="Jamnagar">Jamnagar</option>
+   		<option value="Baroda">Baroda</option>
+   		<option value="Surat">Surat</option>
+   		<option value="Ahmedabad">Ahmedabad</option>
+
+   	</select>
+   	<img src="./search_logo.png" height="35px" width="50px" style="background-color: white; " class="logo"> 
+   	<input type="text" placeholder="search for restaurant , cuisine or a dish" class="text_1" style="border: none;">
+   </div>
+</div>
+</div>
+</body>
+</html>
