@@ -1,0 +1,368 @@
+<html>
+<head>
+	<title>my_profile_du2</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		.header{
+			background-color: white;
+			width: 1300px;
+			height: 80px;
+		}
+		.logo{
+			position: absolute;
+/*			padding: 10px;*/
+			top:10px;
+			left:60px;
+		}
+		.pic{
+			position: absolute;
+			left: 990px;
+			top:12px;
+		}
+		.logo_text{
+			position: absolute;
+			left:1080px;
+			top:25px;
+		}
+
+		.header_black{
+			background-color: darkblue;
+			color: white;
+			font-family: sans-serif;
+			width: 1300px;
+			height: 40px;
+/*			margin-right: -1080px;*/
+			position: absolute;
+			top:80px;
+           
+/*            left:-1072px;*/
+*/
+		}
+		.black_text{
+			float: right;
+			margin-right:63px;
+			margin-top: 10px;
+/*			padding: 20px;*/
+		}
+		.header_white{
+			background-color: white;
+			height: 30px;
+			width: 1300px;
+			position: absolute;
+			top:120px;
+
+		}
+		.white_text{
+			float: left;
+			padding: 10px;
+			margin-left: 45px;
+			font-family: sans-serif;
+/*			padding: 10px;*/
+
+		}
+		.title{
+			background-color: white;
+			height: 50px;
+			width: 1300px;
+			position: absolute;
+			top:150px;
+		}
+		.title_text{
+			margin-left: 55px;
+			margin-top: 10px;
+			font-family: sans-serif;
+		}
+		.main{ 
+			background-color:grey;
+			position: absolute;
+			top:200px;
+			width:1300px;
+			height: 600px;
+		 }
+		.my_info{
+			height: 500px;
+			width: 300px;
+			background-color: white;
+			position: absolute;
+			left:55px;
+			top:20px;
+
+		}
+		.pic2{
+			position: absolute;
+			top:20px;
+			left:90px;
+		}
+	    .name{
+	    	position: absolute;
+	    	left:40px;
+
+	    }
+		.on_roll{
+			height:22px;
+			width:55px;
+			background-color: skyblue;
+			color:white;
+			position: absolute;
+			top:30px;
+			left:90px;
+			font-size: 15px;
+			padding: 2px;
+			font-family: sans-serif;
+
+		}
+		.b_tech{
+			
+			font-size: 15px;
+			position: absolute;
+			left:70px;
+			top:65px;
+/*			top:5000px;*/
+			font-family: sans-serif;
+		}
+		.enroll{
+			font-family: sans-serif;
+			font-size: 15px;
+			position: absolute;
+			top:86px;
+			left:68px;
+
+		}
+		.sem{
+			font-family: sans-serif;
+			font-size: 15px;
+			position: absolute;
+			top:104px;
+			left:72px;
+			color: skyblue;
+		}	
+		.class{
+			position: absolute;
+			top:130px;
+			left:75px;
+		}
+		.batch{
+			position: absolute;
+			left: 75px;
+			top:150px;
+		}
+		.roll{
+			position: absolute;
+			top:170px;
+			left:73px;
+		}	
+		.hr2{
+/*			margin-right:- 20px;*/
+			position: absolute;
+			top:190px;
+			left:-20px;
+/*			right:0px;*/
+		}
+		.hr1{
+			position: absolute;
+			top:120px;
+            left:-20px;
+		}
+		.hr0{
+			position: absolute;
+			top:49px;
+			left:-20px;
+		}
+		.hr3{
+			position: absolute;
+			top:185px;
+			left:-20px;
+		}
+		.hr4{
+			position: absolute;
+			top:215px;
+			left:-20px;
+		}
+		.hr5{
+			position: absolute;
+			top:240px;
+			left:-20px;
+		}
+		.mobile_no{
+			position: absolute;
+			top:200px;
+			left:0px;
+		}
+		.father_no{
+			position: absolute;
+			top:227px;
+		}
+        .email{
+        	position: absolute;
+        	top:250px;
+        }
+		
+		.skyblue{
+			width:330px;
+			height:300px;
+			background-color: white;
+			position: absolute;
+			top:20px;
+			left:356px;
+		}
+		.skyblue_main{
+			height: 260px;
+			width: 290px;
+			background-color: skyblue;
+			position: absolute;
+			top:20px;
+			left:20px;
+			
+		}
+		.sky_text{
+			margin-left: 20px;
+			font-size: 35px;
+			position: absolute;
+			left:40px;
+			top:30px;
+			color: white;
+		}
+		.active{
+			border: 1px solid white;
+			border-radius: 20px;
+			position: absolute;
+			top:170px;
+			left:115px;
+			text-align:center;
+			color:white;
+			height: 25px;
+			line-height: 20px;
+			width:60px;
+		}
+		.notification{
+			height: 400px;
+			width: 500px;
+			background-color:white;
+			position: absolute;
+			left:735px;
+			top:20px;
+		}
+		.noti_heading{
+			font-size: 20px;
+		    color:darkblue;
+		    position: absolute;
+		    top:10px;
+		    left:10px;
+		    font-family: sans-serif;
+		}
+		
+		:1^{
+			 border: 1px solid black;
+		}
+		.noti_bar{
+
+            margin-top: 50px;
+            height: 30px;
+
+		}
+		.text_{
+            
+			float: right;
+			padding: 13px;
+			color: black;
+			border-top: 1px solid grey;
+			
+		}
+		.noti_details{
+			height:25px ;
+			background-color:skyblue;
+			width:480px ;
+			position: absolute;
+			left:750px;
+			color: darkblue;
+			top:135px;
+		}
+
+		
+	</style>
+</head>
+<body>
+<div>	
+	
+	<div class="header">
+		<div class="logo"><img src="DU_Logo.svg" height="80px" width="120px"></div>
+		<div class="pic"><img src="my_pic.jpeg" height="70px" width="80px" ></div> 
+		<div class="logo_text"><div><i>hi.</i><div><b>Jivani Anjali Vasantbhai</b></div> 
+	</div> 
+</div>
+<div>
+	    <div class="header_black">
+	    	<div class="black_text">Certificate Request</div>
+	    	<div class="black_text">Mentoring</div>
+	    	<div class="black_text">Fee</div>
+	    	<div class="black_text">Mid Exam</div>
+	    	<div class="black_text">LMS</div>
+	    	<div class="black_text">Exam</div>
+	    	<div class="black_text">Timetable/Attendance</div>
+	    	<div class="black_text">Personal</div>
+	    	<div class="black_text">Dashboard</div>
+	    </div>
+	
+</div>
+<div>
+	    <div class="header_white">
+	    	<div class="white_text" >Grievance</div>
+	    	<div class="white_text">Hostel</div>
+	    	<div class="white_text" >Feedback</div>
+	    	
+	    	
+	    </div>
+</div>
+<div>
+	    <div class="title"><div class="title_text"><b style="font-size:20px;">Dashboard</b> Jivani Anjali Vasantbhai</div>
+</div>
+	   
+<div class="main">
+	<div class="my_info">
+		 <div class="pic2"><img src="my_pic.jpeg" height="120px" width="120px" ></div>
+		 <hr width="260px" style="margin-top: 150px;">
+		  <div class="name"> <b style="color:skyblue; font-family: sans-serif; font-size: 20px;"> Jivani Anjali Vasantbhai </b> 
+		 <div class="on_roll">On Roll </div>
+         <!-- <hr width="260px" style=" postition:absolute;top :100px; left:20px;"> -->
+          <div class="hr0"><hr width="260px" ></div>
+         <div class="b_tech">B.Tech - CSE</div>
+         <!-- <hr width="260px" style=" postition:absolute;top :100px; left:20px;"> -->
+         <div class="enroll"><B>23010101109</B></div>
+         <div class="sem">Semester - 2</div>
+         <div class="hr1"><hr width="260px" ></div> 
+          <!-- <hr width="260px" style=" postition:absolute;top :100px; left:20px;"> -->
+         <div class="class">CE - A2- A</div>
+         <div class="batch">Batch No. 3</div>
+         <div class="roll">Roll No. 154 </div>
+         <div class="hr3"> <hr width="260px"></div> 
+         <div class="mobile_no">Student : 6352086742 </div>
+         <div class="hr4"> <hr width="260px"></div>
+         <div class="father_no">Father : 9726454682 </div>
+         <div class="hr5"> <hr width="260px"></div>
+         <div class="email">Email : 23010101109@darshan.<br>  ac.in  <br>anjalijivani70@gmail.com</div>
+    </div>
+	
+	<div class="skyblue">
+		 <div class="skyblue_main">
+		 	<div class="sky_text"><b> Active Your Mobile Application </b>  </div>
+		 	<div class="active">Active</div>
+		 </div>
+
+	</div>
+	 <div class="notification">
+	 	<div class="noti_heading">NOTIFICATION</div>
+	 	<div class="noti_bar">  
+         <div class="text_" style="border-left: 1px solid grey; border-right: 1px solid grey; border-top: 1px solid grey; color: darkblue;">  Notification  </div>
+         <div class="text_" style="border-bottom: 1px solid grey; color: grey;">Circular</div>
+         <div class="text_" style="border-bottom: 1px solid grey; color:grey;">LMS Notification</div>
+         <dic class="text_" style="border-bottom: 1px solid grey; color:grey;">Student Announcement</div>
+	 	</div>
+	 	<div class="noti_details">
+	 	No notification to Display</div>
+
+	</div> 
+</div>
+</body>
+</html>
