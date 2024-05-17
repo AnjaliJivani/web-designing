@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lab_14_2-practice</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		.main_box{
+			height: 80vh;
+			width: 180vh;
+			margin-left:12.5vh;
+			margin-top: 9vh;
+/*			background-color: red;*/
+			border: 1px solid black;
+		}
+		.left_side{
+			height: 100%;
+			width: 50vh;
+/*			background-color: blue;*/
+		}
+		.right_side{
+			height: 80vh;
+			width: 130vh;
+/*			background-color: yellow;*/
+			position: absolute;
+			top:9vh;
+			left:63.8vh;
+			border: 1px solid black;
+		}
+		.icons{
+			height: 100%;
+			width:20vh;
+			background-color: pink;
+		}
+		.image_main{
+			height: 80vh;
+			width: 44vh;
+			background-color: green;
+			margin-top: -80vh;
+/*			margin-top: -80vh;*/
+			margin-left: 12.0%;
+			border: 1px solid black;
+		}
+		.blue_text{
+			position:absolute ;
+			 left:2vh;
+		}
+		.bedroom{
+			color: grey;
+			font-size: 20px;
+			position: absolute; left:2vh; top:6vh;
+			font-family:fantasy;
+		}
+		.college_ess{
+			font-size: 25px; font-weight: 300;
+			font-family: fantasy; position:absolute; 
+			top:9vh; left:2vh;
+		}
+		.star_{
+			height: 5.5vh;
+			width: 5.5vh;
+			background-color: blue;
+/*			float: left;*/
+/*			padding: 2px;*/
+		}
+		.rating_review{
+			position: absolute;
+			top:16vh;
+			left:38.5vh;
+			font-size: 2.7vh;
+			font-weight: 1000;
+			color:grey;
+		}
+		.select_quality{
+			font-weight: 1000;
+			font-size: 24px;
+			position: absolute;
+			top:24vh;
+			left:2vh;
+		}
+		.basic, .premium{
+			height: 4.5vh;
+			width: 24vh;
+/*			background-color: red;*/
+            position: absolute	;
+            top:30vh;
+
+		}
+		.basic{
+			left:2vh;
+		}
+		.premium{
+			left:26vh;
+		}
+	</style>
+</head>
+<body>
+	<div class="main_box">
+
+		<div class="left_side">
+		<div class="icons"></div>
+		<div class="image_main"></div>
+	    </div>
+
+	    <div class="right_side">
+	    	<div class="blue_text"><a href="#"><-Back to badroom</a></div>
+
+	    		<div class="bedroom" >BEDROOM</div>
+	    		<div class="college_ess" >College Essentials</div>
+	    		<div class="star_" style="position: absolute; left:2vh; top:15vh;"></div>
+	    		<div class="star_" style="position: absolute; left:9.5vh; top:15vh;"></div>
+	    		<div class="star_" style="position: absolute; left:17vh; top:15vh;"></div>
+	    		<div class="star_" style="position: absolute; left:24.5vh; top:15vh;"></div>
+	    		<div class="star_" style="position: absolute; left:32vh; top:15vh;"></div>
+	    		<div class="rating_review">4.4(328 reviews)</div>
+	    		<div class="select_quality">Select Quality</div>
+	    		
+	    		<div class="buttons">
+	    		<button class="basic">Basic</button>
+	    		<button class="premium">Premium</button>
+	    	    </div>
+
+	    </div>
+	</div>
+
+</body>
+</html>
