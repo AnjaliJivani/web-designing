@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<title>css_9</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-attachment: fixed;
+			
+             background-image: url('./background1.avif ' );
+           
+		}
+		.main{
+			height: 350px;
+			width: 300px;
+			background: rgba(255,255,255,0.10);
+			background-filter:blur(15px);
+			border:1px solid transparent;
+			display: flex;
+			border-radius: 20px;
+            position: absolute;
+            top:100px;
+            left: 520px;
+		}
+	
+		.password , .id , button {
+			border-radius: 5px;
+			position: absolute;
+			font-size: 16px;
+			height: 40px;
+			width: 250px;
+			background-color: navajowhite;
+            left:25px;
+		}
+		.password{
+			top:135px;
+		}
+		.id{
+			top:80px;	
+		}
+		button{
+			top:190px;
+			background-color: rgba(255,255,255,0.20) ;
+			color: white;
+			transition: all ;
+		}
+		.forgot , .Signup{
+			position: absolute;
+			font-size: 16px;
+			color: #4295f5;
+			font-family: serif;
+			position: absolute;
+			top:250px;
+		}
+		.forgot{
+			left: 25px;
+		}
+		.Signup{
+			left:215px;
+		}
+		button:active {
+         transform: scale(0.96);
+		}
+	</style>
+</head>
+<body >
+	
+		<div class="main">
+			<h2  style="font-family: serif; color:#4295f5; font-size: 25px; margin-left: 105px;">Sign In</h2>
+			<br>
+			<input type="text" placeholder="enter your i'd" class="id">
+			<input type="password" name="password"placeholder="password" class="password">
+			<button >login </button>
+			<div class="forgot">Forgot password</div>
+			<div class="Signup">Sign Up</div>
+	    </div>
+    
+</body>
+</html>
