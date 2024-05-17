@@ -1,0 +1,88 @@
+<html>
+
+<head>
+	<title>css_1</title>
+<style>
+	*{
+		box-sizing: border-box;
+	}
+	@media(max-width:400px){
+		.sidebar{width: 100%; background-color: blue;}
+		.entry{width: 100%; background-color: purple;}
+}
+.page{
+    margin-top: 2%;
+	background-color: skyblue;
+	width: 100%;
+	height:auto;
+}
+.main{
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-right: 5%;
+}
+.Header{
+	background-color: purple;
+	column-width: 80%;
+}
+.Content{
+	background-color: orange;
+	height: 40%;
+	column-width: 80%;
+}
+.entry{
+	margin-left: 5%;
+	margin-bottom:5%;
+    height: 30px;
+    width:50% ;
+    background-color: black;
+    color: white;
+}
+
+.sidebar{
+    height:20%;
+    
+    float: right;
+    background-color: black;
+/*    position: relative;*/
+    /*left:60%;
+    top:20%;*/
+    margin-top: -15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 35%;
+    color: white;
+  } 
+
+
+.du{
+	background-color: blue;
+    margin-top:0%;
+}
+</style>
+</head>
+<body>
+	<div class="page">
+     Page
+     <div class="main">
+		<div class="Header">Header</div>
+		
+        
+		<div class="Content">Content<br>
+        
+        <div class="entry_main">
+		<div class="entry">Entry</div>
+		<div class="entry">Entry</div>
+		<div class="entry">Entry</div>
+	    </div>
+
+	    <div class="sidebar">Sidebar</div>
+
+		</div>
+		 <div class="du">
+		Darshan University Rajkot
+		</div>
+        </div>
+	</div>
+</body>
+</html>
